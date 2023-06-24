@@ -20,9 +20,6 @@ import com.sistema.venta.seguridad.CustomUserDetailsService;
 import com.sistema.venta.seguridad.JwtAuthenticationEntryPoint;
 import com.sistema.venta.seguridad.JwtAuthenticationFilter;
 
-import static org.springframework.security.config.Customizer.withDefaults;
-
-
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
